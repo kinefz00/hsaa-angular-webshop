@@ -10,7 +10,11 @@ Wirtschaftsinformatik Hochschule Aalen - Wintersemester 2022 / 2023
    1. [Git](#git)
    1. [NodeJs / npm](#nodejs-npm)
    2. [Visual Studio Code](#visual-Studio-code)
-
+2. [Weitere Informationen](#weitere-informationen)
+   1. [Angular Dokumentation](#angular-dokumentation)
+   2. [Angular Material](#angular-material)
+   3. [Angular Beginner Tutorial](#angular-beginner-tutorial)
+   4. [Stackblitz](#stackblitz)    
 ---
 
 ## Tools
@@ -50,3 +54,33 @@ Leichtgewichtige aber sehr mächtige IDE.
 - https://code.visualstudio.com/download
 
 > Gerne können andere IDEs verwendet werden! Der Zugriff auf ein Terminal bspw. "Powershell" oder "Git Bash" wird jedoch benötigt.
+
+## Weitere Informationen
+
+### Angular Dokumentation
+
+Offizielle Projektseite und erste Anlaufstelle zu Fragen bzgl. Dokumentation. 
+
+**Link**
+- https://angular.io/
+
+### Angular Material
+
+Komponenten und Themes für Angular-Anwendungen. 
+
+**Link**
+- https://material.angular.io/
+
+### Angular Beginner Tutorial
+
+Beginner Tutorial 
+
+**Link**
+- https://angular.io/start
+
+### Stackblitz  
+
+Online Editor and Live-Building Umgebung für diverse Web-Anwendungen
+ 
+**Link**
+- https://stackblitz.com/

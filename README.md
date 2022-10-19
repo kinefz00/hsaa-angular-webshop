@@ -24,14 +24,16 @@ Zum lokalen Entwicklung wird `NodeJs` sowie der Paketmanager `npm` benötigt. In
 
 - https://nodejs.org/en/download/
 
-> Tipp: Die installierte Version kann mittels `-v` Paramter überpfrüft werden
-> $ node -v
-> 16.18.0
->
-> ebfalls `npm`
-> $ npm -v
-> 8.11.0
-
+**Tipp:** Die installierte Version kann mittels `-v` Paramter überpfrüft werden
+```bash
+$ node -v
+16.18.0
+```
+ebenfalls `npm`
+```bash
+$ npm -v
+8.11.0
+```
 
 ### Visual Studio Code
 

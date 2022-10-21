@@ -16,10 +16,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
-import { FourZeroFourErrorComponent } from './error-pages/four-zero-four-error/four-zero-four-error.component';
 
 @NgModule({
-  declarations: [MenuBarComponent, FourZeroFourErrorComponent],
+  declarations: [MenuBarComponent],
   imports: [
     BrowserAnimationsModule,
     RouterModule,

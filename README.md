@@ -9,12 +9,16 @@ Wirtschaftsinformatik Hochschule Aalen - Wintersemester 2022 / 2023
 1. [Tools](#tools)
    1. [Git](#git)
    1. [NodeJs / npm](#nodejs-npm)
-   2. [Visual Studio Code](#visual-Studio-code)
+   1. [Visual Studio Code](#visual-Studio-code)
 2. [Weitere Informationen](#weitere-informationen)
+
    1. [Angular Dokumentation](#angular-dokumentation)
    2. [Angular Material](#angular-material)
    3. [Angular Beginner Tutorial](#angular-beginner-tutorial)
-   4. [Stackblitz](#stackblitz)    
+   4. [Stackblitz](#stackblitz)
+
+3. [Angular app](#angular-app)
+
 ---
 
 ## Tools
@@ -24,6 +28,7 @@ Wirtschaftsinformatik Hochschule Aalen - Wintersemester 2022 / 2023
 Enthält neben den Kernfunktionen die "Git bash" - eine "git"-optimierte Konsole.
 
 **Download**
+
 - https://git-scm.com/downloads
 
 ### NodeJs / npm
@@ -33,14 +38,18 @@ Zum lokalen Entwicklung wird `NodeJs` sowie der Paketmanager `npm` benötigt. In
 (`npm` wird standardmäßig mit installiert)
 
 **Download**
+
 - https://nodejs.org/en/download/
 
 **Tipp:** Die installierte Version kann mittels `-v` Paramter überpfrüft werden
+
 ```bash
 $ node -v
 16.18.0
 ```
+
 ebenfalls `npm`
+
 ```bash
 $ npm -v
 8.11.0
@@ -51,6 +60,7 @@ $ npm -v
 Leichtgewichtige aber sehr mächtige IDE.
 
 **Download**
+
 - https://code.visualstudio.com/download
 
 > Gerne können andere IDEs verwendet werden! Der Zugriff auf ein Terminal bspw. "Powershell" oder "Git Bash" wird jedoch benötigt.
@@ -59,28 +69,60 @@ Leichtgewichtige aber sehr mächtige IDE.
 
 ### Angular Dokumentation
 
-Offizielle Projektseite und erste Anlaufstelle zu Fragen bzgl. Dokumentation. 
+Offizielle Projektseite und erste Anlaufstelle zu Fragen bzgl. Dokumentation.
 
 **Link**
+
 - https://angular.io/
 
 ### Angular Material
 
-Komponenten und Themes für Angular-Anwendungen. 
+Komponenten und Themes für Angular-Anwendungen.
 
 **Link**
+
 - https://material.angular.io/
 
 ### Angular Beginner Tutorial
 
-Beginner Tutorial 
+Beginner Tutorial
 
 **Link**
+
 - https://angular.io/start
 
-### Stackblitz  
+### Stackblitz
 
 Online Editor and Live-Building Umgebung für diverse Web-Anwendungen
- 
+
 **Link**
+
 - https://stackblitz.com/
+
+## Angular app
+
+Vorbereitung
+
+```bash
+cd my-repo
+mkdir src
+cd src
+```
+
+Erstellen eines leeren Workspaces
+
+```bash
+ng new webshop-frontend --create-application false
+```
+
+Erstellen der eigentlichen App:
+
+```bash
+ng g app webshop-app
+```
+
+Erstellen shared library:
+
+```bash
+ng g lib shared-lib
+```

@@ -109,20 +109,21 @@ mkdir src
 cd src
 ```
 
-Erstellen eines leeren Workspaces
+1. Erstellen eines leeren Workspaces
 
 ```bash
 ng new webshop-frontend --create-application false
 ```
 
-Erstellen der eigentlichen App:
+2. Erstellen der Web-Anwendung:
 
 ```bash
 ng g app webshop-app
 ```
 
-Erstellen shared library:
+3. Erstellen einer wiederverwendbaren Bibliothek:
 
 ```bash
 ng g lib shared-lib
 ```
+

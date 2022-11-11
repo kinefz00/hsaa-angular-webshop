@@ -23,7 +23,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatDialogModule } from '@angular/material/dialog';
+import { MatDialogModule, MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -54,8 +55,13 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatDialogModule,
     MatPaginatorModule,
     MatTableModule,
+    MatDialogModule,
+    MatSnackBarModule,
   ],
-  providers: [],
+  providers: [    {
+    provide: MAT_DIALOG_DEFAULT_OPTIONS,
+    useValue: { maxWidth: '90vw', hasBackdrop: true },
+  },],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

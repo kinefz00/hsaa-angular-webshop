@@ -16,9 +16,11 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { AddUserComponent } from './components/dialogs/add-user/add-user.component';
+import { AddUserDialogComponent } from './components/dialogs/add-user-dialog/add-user-dialog.component';
 
 @NgModule({
-  declarations: [MenuBarComponent],
+  declarations: [MenuBarComponent, AddUserComponent, AddUserDialogComponent],
   imports: [
     BrowserAnimationsModule,
     RouterModule,
